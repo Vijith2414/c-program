@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	int mark;
+	printf("ENTER THE MARKS\n");
+	scanf("%d",&mark);
+	if (mark<=100 && mark>=85)
+	{
+		printf("GRADE A");
+	}
+	else if (mark<85 && mark>=70)
+	{
+		printf("GRADE B");
+	}
+	else if (mark<70 && mark>=55)
+	{
+		printf("GRADE C");
+	}
+	else if (mark<55 && mark>=40)
+	{
+		printf("GRADE D");
+	}
+	else if (mark<40) 
+	{
+		printf("GRADE F");
+	}
+}
